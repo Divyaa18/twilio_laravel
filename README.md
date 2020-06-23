@@ -60,7 +60,6 @@ public function initiate_call() {
             [
 
         "twiml" => "<Response>
-
 <Gather action='http://52.186.153.10/test.php' numDigits='1' method='GET'>
 <Say>If you get your order press 1</Say>
     </Gather><Say>Thank You !!</Say>
